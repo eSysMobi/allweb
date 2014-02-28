@@ -142,6 +142,13 @@ class SiteController extends Controller
 		$results->results_to_db();
 		// $results->results_to_db();
 	}
+	public function actionKomushtoParse() {
+		$results = new KomushtoSearchResults;
+		echo 'Начали парсинг<br />';
+		$results->get_results();
+		$results->results_to_db();
+		// $results->results_to_db();
+	}
 	public function actionRdwParse() {
 		$results = new RdwSearchResults;
 		echo 'Начали парсинг<br />';
