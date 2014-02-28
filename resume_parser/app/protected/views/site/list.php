@@ -73,7 +73,24 @@ function() {
 }
 EOD;
 ?>
-<input type="checkbox" name="all" id="all" value="one" <?echo ($all?'checked':'');?>>Показывать все<br />
+<form method="get" action="<?echo Yii::app()->createUrl("site/call");?>">
+Фильтр<br />
+Имя: <input type="text" name="name" value="<?echo (isset($vals['name'])?$vals['name']:'');?>">
+Телефон/Email: <input type="text" name="contact" value="<?echo (isset($vals['contact'])?$vals['contact']:'');?>">
+Сайт: <select name="site"><?
+foreach(array('avito','sarbc') as $site) {
+	echo "<option value='{$site}' ";
+	if (isset($vals['site']) && $site==$vals['site']) {
+		echo 'selected';
+	}
+	echo ">{$site}</option>";
+}
+?>
+</select>
+<input type="checkbox" name="all" id="all" value="1" <?echo (isset($vals['all']) && $vals['all']==1?'checked':'');?>>Показывать все
+<input type="hidden" name="r" value="site/list">
+<input type="submit" value="Применить">
+</form>
 <?
 mb_internal_encoding("UTF-8");
 $this->widget('zii.widgets.grid.CGridView', array(
@@ -89,10 +106,11 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				'value' => '"<div class=\"less-data\">".mb_substr($data->description,0,100)."...</div><div class=more-data>".$data->description."</div><a href=javascript:void(0); class=\"readMore\">Раскрыть</a>"',
 				'type' 	=> 'raw',
 			),
+			array('header'=>'Зар. плата', 'value'=>'$data->salary', 'name' => 'salary'),
 			array('header'=>'Дата', 'name' => 'date', 'value'=>'$data->date')
         ),
 		'ajaxUpdate'=>true,
-		'enableSorting'=>array('name','date','phone','site'),
+		'enableSorting'=>array('name','date','phone','site','salary'),
 
     ));
 ?>

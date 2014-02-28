@@ -116,6 +116,7 @@ class AvitoSearchResume extends CComponent
 		($this->category?'Отрасль - '.$this->category.'. ':'').($this->description?$this->description:'');
 		$model->phone = UtilityHelper::formatPhone($this->phone);
 		$model->link=$this->link;
+		$model->salary=str_replace('&nbsp;',' ',$this->salary);
 		if($model->save()) {
 			return true;
 		} else {

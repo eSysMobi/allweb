@@ -12,6 +12,7 @@
  * @property string $description
  * @property string $phone
  * @property string $email
+ * @property string $salary
  * @property string $link
  * @property integer $called
  * @property integer $deleted
@@ -36,11 +37,11 @@ class Resumes extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('called, deleted', 'numerical', 'integerOnly'=>true),
-			array('site, phone, email', 'length', 'max'=>100),
+			array('site, phone, email, salary', 'length', 'max'=>100),
 			array('name, job, date, description, link', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, site, name, job, date, description, phone, email, link, called, deleted, parsing_date', 'safe', 'on'=>'search'),
+			array('id, site, name, job, date, description, phone, email, salary, link, called, deleted, parsing_date', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -69,6 +70,7 @@ class Resumes extends CActiveRecord
 			'description' => 'Description',
 			'phone' => 'Phone',
 			'email' => 'Email',
+			'salary' => 'Salary',
 			'link' => 'Link',
 			'called' => 'Called',
 			'deleted' => 'Deleted',
@@ -102,6 +104,7 @@ class Resumes extends CActiveRecord
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('phone',$this->phone,true);
 		$criteria->compare('email',$this->email,true);
+		$criteria->compare('salary',$this->salary,true);
 		$criteria->compare('link',$this->link,true);
 		$criteria->compare('called',$this->called);
 		$criteria->compare('deleted',$this->deleted);

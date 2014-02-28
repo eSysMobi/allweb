@@ -129,12 +129,18 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
-	public function actionParse() {
+	public function actionAvitoParse() {
 		$results = new AvitoSearchResults;
 		echo 'Начали парсинг<br />';
 		$results->get_results();
 		$results->results_to_db();
-		
+	}
+	public function actionRu164Parse() {
+		$results = new Ru164SearchResults;
+		echo 'Начали парсинг<br />';
+		$results->get_results();
+		$results->results_to_db();
+		// $results->results_to_db();
 	}
 	public function actionList()
 	{
@@ -143,15 +149,34 @@ class SiteController extends Controller
 		}
 		$all=Yii::app()->input->get('all');
 		$criteria = array();
+		$vals = array();
+		$bindings = array();
 		if (!$all) {
-			$criteria['condition'] = 'ISNULL(called)';
+			$criteria[] = 'ISNULL(called)';
+		} else {
+			$vals['all'] = 1;
+		}
+		foreach(array('name','site','contact') as $var) {
+			if ($val = $pagesize=Yii::app()->input->get($var)) {
+				$bindings[':'.$var] = '%'.$val.'%';
+				$vals[$var] = $val;
+			}
+		}
+		foreach(array('name','site') as $var) {
+			if (isset($bindings[':'.$var])) {
+				$criteria[] = $var.' LIKE :'.$var;
+			}	
+		}
+		if (isset($bindings[':contact'])) {
+			$criteria[] = '(phone LIKE :contact OR email LIKE :contact)';
 		}
 		$dataProvider = new CActiveDataProvider('Resumes', array(
-			'criteria'=> $criteria,
+			'criteria'=> array('condition' => implode(' AND ',$criteria),'params' => $bindings),
 			'pagination' => array(
 				'pageSize' => $pagesize,
 			),
 		));
+		
 		// $model = new Resumes;
 		// $criteria=new CDbCriteria;
 		// $count=Resumes::model()->count($criteria);
@@ -162,7 +187,7 @@ class SiteController extends Controller
 		$this->render('list', array(
 			// 'models' => $models,
 			// 'pages' => $pages,
-			'all' => $all,
+			'vals' => $vals,
 			'dataProvider' => $dataProvider
 		));
 		
