@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 25 Feb 2014 15:58:17 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=15
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: sessid=93db837b70e9bebe524ba38299344ddb.1393343897; expires=Wed, 26-Feb-2014 15:58:17 GMT; Max-Age=86400; path=/; domain=.avito.ru; httponly
+Set-Cookie: u=1sf2glk9.mapwae.edw2ivtnjl; expires=Thu, 25-Feb-2016 15:58:17 GMT; Max-Age=63072000; path=/; domain=.avito.ru
+Set-Cookie: v=1393343897; expires=Tue, 25-Feb-2014 16:28:17 GMT; Max-Age=1800; path=/; domain=.avito.ru
+X-Frame-Options: SAMEORIGIN
+
+{"phone":"12-12-12"}
