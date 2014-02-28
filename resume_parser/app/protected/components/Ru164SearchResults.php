@@ -10,7 +10,6 @@ class Ru164SearchResults extends CComponent
 	public function get_results() {
 		$last=false;
 		for($num=1; $num<=7; $num++) {
-			echo 'Страница '.$num.'<br />';
 			$html = HtmlHelper::loadHtml('http://164.ru/job/resume/'.$num.'.php?firstPage=0');
 			$results = $html->find('table.table2 tr[id*=row]');
 			
@@ -21,7 +20,8 @@ class Ru164SearchResults extends CComponent
 					 break;
 				 }
 			 }
-			foreach($results as $result) {
+			echo 'Страница '.$num.'<br />';
+			foreach($results as &$result) {
 				$item = new Ru164SearchResume();
 				$item->load_from_short_html($result);
 				$difference = UtilityHelper::days_ago($item->creation_date);
@@ -32,10 +32,9 @@ class Ru164SearchResults extends CComponent
 					echo 'Объявление '.$item->job.' '.round($difference,2).'<br />';
 				}
 			}
-			if ($num==3) {
-				die;
-			}
 			$html->clear();
+			unset($html);
+			unset($results);
 		}
 	}
 	public function results_to_db() {

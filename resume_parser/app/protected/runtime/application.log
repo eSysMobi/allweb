@@ -2339,3 +2339,43 @@ in /var/www/html/resume_parser/app/index.php (18)
 2014/02/28 13:45:46 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
 in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
 in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 13:58:44 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:02:36 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:03:17 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:10:04 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:11:46 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:11:46 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:14:20 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:15:27 [warning] [Parsing] Cannot open URL - http://164.ru/job/resume/10825.html
+in /var/www/html/resume_parser/app/protected/components/HtmlHelper.php (49)
+in /var/www/html/resume_parser/app/protected/components/Ru164SearchResume.php (72)
+in /var/www/html/resume_parser/app/protected/components/Ru164SearchResults.php (29)
+2014/02/28 14:16:49 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:24:45 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:39:48 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:40:03 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/02/28 14:44:13 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)

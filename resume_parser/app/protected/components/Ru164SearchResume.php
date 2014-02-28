@@ -14,7 +14,7 @@ class Ru164SearchResume extends CComponent
 	public $description;
 	public $phone;
 	public $email;
-	public function load_from_short_html($html) {
+	public function load_from_short_html(&$html) {
 		$tds = HtmlHelper::getItems($html,'td');
 		if (!empty($tds)) {
 			// echo $new_string;
@@ -31,6 +31,7 @@ class Ru164SearchResume extends CComponent
 			
 			$this->link=$html->find('a.j_link_list',0)->href;
 		}
+		unset($tds);
 	}
 	
 	private function format_date($date) {
@@ -81,6 +82,18 @@ class Ru164SearchResume extends CComponent
 		$exp_table = $tables[5];
 		$this->description = mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($exp_table,'tr','Профессиональные навыки'),'td',1), "utf-8", "windows-1251");
 		$html->clear();
+		unset($html);
+		$personal_info_table->clear();
+		unset($personal_info_table);
+		$contacts_table->clear();
+		unset($contacts_table);
+		$wishes_table->clear();
+		unset($wishes_table);
+		$exp_table->clear();
+		unset($exp_table);
+		unset($tables);
+		
+		
 	}
 	public function to_db($check_existance=true) {
 		if ($check_existance) {
