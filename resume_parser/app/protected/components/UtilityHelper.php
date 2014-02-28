@@ -12,7 +12,10 @@ class UtilityHelper extends CComponent
 		return($datediff/(60*60*24));
 	}
 	public static function formatPhone($phone) {
-		return str_replace(array(' ',')','-','(','+','.'),'',$phone);
+		if ($phone) {
+			return str_replace(array(' ',')','-','(','+','.'),'',$phone);
+		}
+		return null;
 	}
 	function format_email ($string) {
 		foreach(preg_split('/\s/', $string) as $token) {

@@ -142,6 +142,20 @@ class SiteController extends Controller
 		$results->results_to_db();
 		// $results->results_to_db();
 	}
+	public function actionRdwParse() {
+		$results = new RdwSearchResults;
+		echo 'Начали парсинг<br />';
+		$results->get_results();
+		// $results->results_to_db();
+		// $results->results_to_db();
+	}
+	public function actionSarbcParse() {
+		$results = new SarbcSearchResults;
+		echo 'Начали парсинг<br />';
+		$results->get_results();
+		// $results->results_to_db();
+		// $results->results_to_db();
+	}
 	public function actionList()
 	{
 		if (!$pagesize=Yii::app()->input->get('pagesize')) {
