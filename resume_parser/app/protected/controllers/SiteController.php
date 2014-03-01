@@ -163,6 +163,13 @@ class SiteController extends Controller
 		// $results->results_to_db();
 		// $results->results_to_db();
 	}
+	public function actionKarieraParse() {
+		$results = new KarieraSearchResults;
+		echo 'Начали парсинг<br />';
+		$results->get_results();
+		// $results->results_to_db();
+		// $results->results_to_db();
+	}
 	public function actionList()
 	{
 		if (!$pagesize=Yii::app()->input->get('pagesize')) {

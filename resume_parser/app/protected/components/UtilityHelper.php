@@ -28,6 +28,6 @@ class UtilityHelper extends CComponent
 		// return $emails[0];
 	}
 	function cleanString($string) {
-		return(trim(preg_replace('#(?(?!<!--.*?-->)(?: {2,}|[\r\n\t]+)|(<!--.*?-->))#s', '$1', $string)));
+		return(trim(preg_replace('#(?(?!<!--.*?-->)(?: {2,}|[\r\n\t]+)|(<!--.*?-->))#s', '$1', str_replace('&nbsp;',' ',$string))));
 	}
 }
