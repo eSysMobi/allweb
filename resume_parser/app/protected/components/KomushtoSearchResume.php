@@ -7,14 +7,11 @@ class KomushtoSearchResume extends CComponent
 	public $link='http://www.komuchto.ru';
 	public $site='komushto';
 	
-	public $name;
-	public $exp;
-	public $age;
-	public $edu;
-	public $worktype;
+	public $category;
 	public $description;
 	public $phone;
-	public $email;
+	
+	
 	public function load_from_short_html(&$html) {
 		$url = array_shift(HtmlHelper::getItems($html,'a.adv_list'));
 		$this->job = mb_convert_encoding(HtmlHelper::getItem($url,'b'), "utf-8", "windows-1251");
@@ -38,23 +35,24 @@ class KomushtoSearchResume extends CComponent
 	}
 	public function load_full() {
 		$html = HtmlHelper::loadHtml($this->link);
-		$wrapper = array_shift(HtmlHelper::getItems($html,'div.sectionList'));
-		$this->name = $this->parse_li($wrapper,'Контактное лицо');
-		echo 2;
-		$this->phone = UtilityHelper::formatPhone($this->parse_li($wrapper,'Телефон'));
-		$this->email = $this->parse_li($wrapper,'E-mail');
-		$this->age = $this->parse_li($wrapper,'Возраст');
-		$this->edu = $this->parse_li($wrapper,'Образование');
-		$this->exp = $this->parse_li($wrapper,'Опыт работы');
-		$this->worktype = $this->parse_li($wrapper,'График работы');
-		$exploded_section = explode('</div>',$wrapper->innertext);
-		$exploded_exploded_section = explode('<div class="title">',$exploded_section[1]);
-		$this->description = $exploded_exploded_section[0];
+		$phone_tr = HtmlHelper::findContains($html,'table.advonetable table.advonetable tr','adv_phone.png');
+		$this->phone = $phone_tr->plaintext;
+		$phone_tr->clear();
+		unset($phone_tr);
+		$category_tr = HtmlHelper::getItems($html,'table.advonetable tr');
+		$category_tr = $category_tr[0];
+		$category_td = HtmlHelper::getItems($category_tr,'p');
+		if ($category_td[1]) {
+			$this->category = str_replace('Размещено: ','',mb_convert_encoding($category_td[1]->innertext, "utf-8", "windows-1251"));
+		}
+		$description_td = mb_convert_encoding(HtmlHelper::getItem($html,'table.advonetable tr',1,'plaintext'), "utf-8", "windows-1251");
+		if ($description_td) {
+			$this->description = UtilityHelper::cleanString($description_td);
+		}
 		$html->clear();
 		unset($html);
-		$wrapper->clear();
-		unset($wrapper);
-		
+		unset($category_tr);
+		unset($category_td);
 	}
 	public function to_db($check_existance=true) {
 		if ($check_existance) {
@@ -64,15 +62,12 @@ class KomushtoSearchResume extends CComponent
 		}
 		$model = new Resumes;
 		$model->site=$this->site;
-		$model->name=$this->name;
 		$model->job=$this->job;
 		$model->{'date'}=$this->creation_date;
-		$model->description=(($this->worktype)?'Тип - '.$this->worktype.'. ':'').
-		($this->age?'Возраст - '.$this->age.'. ':'').($this->edu?'Образование - '.$this->edu.'. ':'').($this->exp?'Опыт - '.$this->exp.'. ':'').($this->description?$this->description:'');
+		$model->description=(($this->category)?'Отрасль - '.$this->category.'. ':'').($this->description?$this->description:'');
 		$model->phone = $this->phone;
-		$model->email = $this->email;
 		$model->link=$this->link;
-		$model->salary=str_replace('&nbsp;',' ',$this->salary);
+		$model->salary=$this->salary;
 		if($model->save()) {
 			return true;
 		} else {
@@ -94,18 +89,5 @@ class KomushtoSearchResume extends CComponent
 			}
 		}
 		return false;
-	}
-	private function parse_li($wrapper,$str,$all=false) {
-		$li = HtmlHelper::findContains($wrapper,'li',$str,'first');
-		if ($li) {
-			$li = $li->plaintext;
-			$out = explode(': ',$li);
-			if ($all) {
-				return $out;
-			} else {
-				return $out[1];
-			}
-		}
-		return null;
 	}
 }
