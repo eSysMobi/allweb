@@ -19,8 +19,8 @@ class Ru164SearchResume extends CComponent
 		if (!empty($tds)) {
 			// echo $new_string;
 			$this->creation_date = $this->format_date($tds[0]->plaintext);
-			$this->name = $tds[1]->plaintext;
-			$this->job = $tds[2]->find('span',0)->plaintext;
+			$this->name = UtilityHelper::cleanString($tds[1]->plaintext);
+			$this->job = UtilityHelper::cleanString($tds[2]->find('span',0)->plaintext);
 			$salary_exploded = explode(' ',trim($tds[3]->plaintext));
 			if (strpos($salary_exploded[0],'Договорная') === false) {
 				array_shift($salary_exploded);
@@ -66,10 +66,11 @@ class Ru164SearchResume extends CComponent
 			$year = date("Y")-1;
 		}
 		if ($num < 10) $num = '0'.$num;
-		return($year.'-'.$num.'-'.$exploded[1].$exploded[0].':00');
+		return($year.'-'.$num.'-'.$exploded[1].' '.$exploded[0].':00');
 	}
 	public function load_full() {
 		$html = HtmlHelper::loadHtml($this->link);
+		echo '<br />'.$this->link.'<br />';
 		$tables = HtmlHelper::getItems($html,'#block_center table table');
 		$personal_info_table = $tables[2];
 		$this->age = HtmlHelper::getItem(HtmlHelper::findContains($personal_info_table,'tr','Возраст'),'td',1);
@@ -81,7 +82,9 @@ class Ru164SearchResume extends CComponent
 		$this->worktype = mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($wishes_table,'tr','График работы'),'td',1), "utf-8", "windows-1251").' '.mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($wishes_table,'tr','Тип работы'),'td',1), "utf-8", "windows-1251");
 		$exp_table = $tables[5];
 		$this->description = mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($exp_table,'tr','Профессиональные навыки'),'td',1), "utf-8", "windows-1251");
-		$html->clear();
+		if ($html) {
+			$html->clear();
+		}
 		unset($html);
 		$personal_info_table->clear();
 		unset($personal_info_table);
@@ -109,6 +112,7 @@ class Ru164SearchResume extends CComponent
 		$model->description=(($this->worktype)?'Рабочий день - '.$this->worktype.'. ':'').
 		($this->age?'Возраст - '.$this->age.'. ':'').($this->description?$this->description:'');
 		$model->phone = $this->phone;
+		$model->email = $this->email;
 		$model->link=$this->link;
 		$model->salary=str_replace('&nbsp;',' ',$this->salary);
 		if($model->save()) {

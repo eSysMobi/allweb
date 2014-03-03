@@ -76,9 +76,10 @@ EOD;
 <form method="get" action="<?echo Yii::app()->createUrl("site/call");?>">
 Фильтр<br />
 Имя: <input type="text" name="name" value="<?echo (isset($vals['name'])?$vals['name']:'');?>">
+Работа: <input type="text" name="job" value="<?echo (isset($vals['job'])?$vals['job']:'');?>">
 Телефон/Email: <input type="text" name="contact" value="<?echo (isset($vals['contact'])?$vals['contact']:'');?>">
 Сайт: <select name="site"><?
-foreach(array('avito','sarbc') as $site) {
+foreach(array('avito','sarbc','164ru','joblab','kariera','komushto','rdw','Все') as $site) {
 	echo "<option value='{$site}' ";
 	if (isset($vals['site']) && $site==$vals['site']) {
 		echo 'selected';
@@ -87,7 +88,7 @@ foreach(array('avito','sarbc') as $site) {
 }
 ?>
 </select>
-<input type="checkbox" name="all" id="all" value="1" <?echo (isset($vals['all']) && $vals['all']==1?'checked':'');?>>Показывать все
+<input type="checkbox" name="all" id="all" value="1" <?echo (isset($vals['all']) && $vals['all']==1?'checked':'');?>>Показывать все<br /><br />
 <input type="hidden" name="r" value="site/list">
 <input type="submit" value="Применить">
 </form>

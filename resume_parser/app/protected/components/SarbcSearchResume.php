@@ -43,7 +43,6 @@ class SarbcSearchResume extends CComponent
 		$html = HtmlHelper::loadHtml($this->link);
 		$wrapper = array_shift(HtmlHelper::getItems($html,'div.sectionList'));
 		$this->name = $this->parse_li($wrapper,'Контактное лицо');
-		echo 2;
 		$this->phone = UtilityHelper::formatPhone($this->parse_li($wrapper,'Телефон'));
 		$this->email = $this->parse_li($wrapper,'E-mail');
 		$this->age = $this->parse_li($wrapper,'Возраст');

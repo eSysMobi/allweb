@@ -10,7 +10,7 @@ class KomushtoSearchResults extends CComponent
 	public function get_results() {
 		$last=false;
 		for($num=1; $num<=5; $num++) {
-			$html = HtmlHelper::loadHtml('http://www.komuchto.ru/advert/search/?&advf_act=6&advf_rid=13&page='.($num+1));
+			$html = HtmlHelper::loadHtml('http://www.komuchto.ru/advert/search/?&advf_act=6&advf_rid=13&page='.$num);
 			$results = $html->find('div.adv_show tr.w');
 			echo 'Страница '.$num.'<br />';
 			foreach($results as &$result) {

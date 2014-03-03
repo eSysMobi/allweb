@@ -16,30 +16,33 @@ class HtmlHelper extends CComponent
 		return null;
     }
 	public static function getItems($html,$selector) {
-		$got = $html->find($selector);
-		if ($got && !empty($got)) {
-			return $got;
-		} else {
-			return null;
-		}
-	}
-	public static function findContains($html,$selector,$contains,$out='first') {
-		$items = $html->find($selector);
-		if ($out=='all') {
-			$all = array();
-		}
-		if (!empty($items)) {
-			foreach($items as $item) {
-				if(strpos($item->innertext, $contains) !== false) {
-					if ($out=='first') {
-						return $item;
-					}
-					$all[] = $item;
-				}
+		if ($html) {
+			$got = $html->find($selector);
+			if ($got && !empty($got)) {
+				return $got;
 			}
 		}
-		if ($out=='all') {
-			return $all;
+		return null;
+	}
+	public static function findContains($html,$selector,$contains,$out='first') {
+		if ($html) {
+			$items = $html->find($selector);
+			if ($out=='all') {
+				$all = array();
+			}
+			if (!empty($items)) {
+				foreach($items as $item) {
+					if(strpos($item->innertext, $contains) !== false) {
+						if ($out=='first') {
+							return $item;
+						}
+						$all[] = $item;
+					}
+				}
+			}
+			if ($out=='all') {
+				return $all;
+			}
 		}
 		return null;
 	}

@@ -178,13 +178,17 @@ class SiteController extends Controller
 		} else {
 			$vals['all'] = 1;
 		}
-		foreach(array('name','site','contact') as $var) {
-			if ($val = $pagesize=Yii::app()->input->get($var)) {
-				$bindings[':'.$var] = '%'.$val.'%';
-				$vals[$var] = $val;
+		foreach(array('name','site','contact','job') as $var) {
+			if (!($var=='site' && Yii::app()->input->get($var)=='Все')) {
+				if ($val=Yii::app()->input->get($var)) {
+					$bindings[':'.$var] = '%'.$val.'%';
+					$vals[$var] = $val;
+				}
+			} else {
+				$vals['site'] = 'Все';
 			}
 		}
-		foreach(array('name','site') as $var) {
+		foreach(array('name','site','job') as $var) {
 			if (isset($bindings[':'.$var])) {
 				$criteria[] = $var.' LIKE :'.$var;
 			}	
