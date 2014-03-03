@@ -7,4 +7,7 @@
 .rdw.ru	TRUE	/	FALSE	1401864338	LastUserLogin	jana-hohlova%40rambler.ru
 .rdw.ru	TRUE	/	FALSE	1401864338	LastUserLoginRem	1
 .rdw.ru	TRUE	/	FALSE	0	PHPSESSID	rpk298hq2kj8buluichm4c7a61
-.rdw.ru	TRUE	/	FALSE	1401864338	UserSID	rpk298hq2kj8buluichm4c7a61
+.rdw.ru	TRUE	/	FALSE	1401882009	UserSID	rpk298hq2kj8buluichm4c7a61
+.joblab.ru	TRUE	/	FALSE	0	PHPSESSID	gto7e0jdie9cfbi9sgphocs7a1
+.joblab.ru	TRUE	/	FALSE	1425374555	joblab_employer	NDNhMGUyNDgzNWI3YjMyN2M4OWY4OTAxMTkxZTFkMzdiZTZiZg%3D%3D
+joblab.ru	FALSE	/	FALSE	1396430557	joblab_srregion	64

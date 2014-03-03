@@ -4972,3 +4972,141 @@ in /var/www/html/resume_parser/app/index.php (18)
 2014/03/03 11:41:13 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
 in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
 in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:22:34 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:24:53 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:25:02 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:25:31 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:26:08 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:26:38 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:27:02 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:27:39 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:27:45 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:28:08 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:28:54 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:50:07 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:50:11 [error] [php] Undefined variable: html2 (/var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php:17)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionJoblabParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/JoblabParse
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php (17)
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResults.php (41)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (165)
+2014/03/03 12:50:29 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:50:33 [error] [php] Undefined offset:  2 (/var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php:33)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(165): JoblabSearchResults->get_results()
+#1 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionJoblabParse()
+#2 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#4 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#5 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/JoblabParse
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php (33)
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php (17)
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResults.php (41)
+2014/03/03 12:51:17 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:51:21 [error] [php] Undefined offset:  2 (/var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php:34)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(165): JoblabSearchResults->get_results()
+#1 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionJoblabParse()
+#2 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#4 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#5 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/JoblabParse
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php (34)
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php (17)
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResults.php (41)
+2014/03/03 12:55:00 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 12:55:04 [error] [php] Undefined offset:  2 (/var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php:41)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(165): JoblabSearchResults->get_results()
+#1 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionJoblabParse()
+#2 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#4 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#5 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#7 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#8 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/JoblabParse
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php (41)
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResume.php (17)
+in /var/www/html/resume_parser/app/protected/components/JoblabSearchResults.php (41)
+2014/03/03 12:55:42 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:30:25 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:39:09 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:40:09 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:41:33 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:41:47 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:42:43 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:44:11 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:44:38 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 14:45:08 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)

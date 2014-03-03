@@ -133,42 +133,36 @@ class SiteController extends Controller
 		$results = new AvitoSearchResults;
 		echo 'Начали парсинг<br />';
 		$results->get_results();
-		$results->results_to_db();
 	}
 	public function actionRu164Parse() {
 		$results = new Ru164SearchResults;
 		echo 'Начали парсинг<br />';
 		$results->get_results();
-		$results->results_to_db();
-		// $results->results_to_db();
 	}
 	public function actionKomushtoParse() {
 		$results = new KomushtoSearchResults;
 		echo 'Начали парсинг<br />';
 		$results->get_results();
-		$results->results_to_db();
-		// $results->results_to_db();
 	}
 	public function actionRdwParse() {
 		$results = new RdwSearchResults;
 		echo 'Начали парсинг<br />';
 		$results->get_results();
-		// $results->results_to_db();
-		// $results->results_to_db();
 	}
 	public function actionSarbcParse() {
 		$results = new SarbcSearchResults;
 		echo 'Начали парсинг<br />';
 		$results->get_results();
-		// $results->results_to_db();
-		// $results->results_to_db();
 	}
 	public function actionKarieraParse() {
 		$results = new KarieraSearchResults;
 		echo 'Начали парсинг<br />';
 		$results->get_results();
-		// $results->results_to_db();
-		// $results->results_to_db();
+	}
+	public function actionJoblabParse() {
+		$results = new JoblabSearchResults;
+		echo 'Начали парсинг<br />';
+		$results->get_results();
 	}
 	public function actionList()
 	{
