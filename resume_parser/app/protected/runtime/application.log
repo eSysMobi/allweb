@@ -4384,3 +4384,591 @@ in /var/www/html/resume_parser/app/index.php (18)
 2014/03/01 18:36:34 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
 in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
 in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:00:45 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:00:45 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:01:24 [info] [application] Global $_POST array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (312)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:01:24 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:01:24 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:01:37 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:01:43 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:01:48 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:02:12 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:02:12 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:03:57 [info] [application] Global $_POST array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (312)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:03:57 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:03:57 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:05:03 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:05:06 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:05:52 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:05:55 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:08:42 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:09:26 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:09:26 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/02 11:09:26 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:22:48 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:22:57 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:22:58 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier 'a' (/var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php:671)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(530): simple_html_dom_node->seek()
+#1 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(1129): simple_html_dom_node->find()
+#2 /var/www/html/resume_parser/app/protected/components/HtmlHelper.php(7): simple_html_dom->find()
+#3 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(13): getItem()
+#4 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#5 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#6 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#8 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (671)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (629)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (530)
+2014/03/03 09:23:19 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:23:20 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier 'a' (/var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php:671)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(530): simple_html_dom_node->seek()
+#1 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(1129): simple_html_dom_node->find()
+#2 /var/www/html/resume_parser/app/protected/components/HtmlHelper.php(7): simple_html_dom->find()
+#3 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(14): getItem()
+#4 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#5 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#6 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#8 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (671)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (629)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (530)
+2014/03/03 09:23:30 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:23:31 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier 'a' (/var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php:671)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(530): simple_html_dom_node->seek()
+#1 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(1129): simple_html_dom_node->find()
+#2 /var/www/html/resume_parser/app/protected/components/HtmlHelper.php(7): simple_html_dom->find()
+#3 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(14): getItem()
+#4 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#5 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#6 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#8 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (671)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (629)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (530)
+2014/03/03 09:23:32 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:23:32 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier 'a' (/var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php:671)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(530): simple_html_dom_node->seek()
+#1 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(1129): simple_html_dom_node->find()
+#2 /var/www/html/resume_parser/app/protected/components/HtmlHelper.php(7): simple_html_dom->find()
+#3 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(14): getItem()
+#4 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#5 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#6 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#8 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (671)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (629)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (530)
+2014/03/03 09:23:42 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:23:43 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier 'a' (/var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php:671)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(530): simple_html_dom_node->seek()
+#1 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(1129): simple_html_dom_node->find()
+#2 /var/www/html/resume_parser/app/protected/components/HtmlHelper.php(7): simple_html_dom->find()
+#3 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(13): getItem()
+#4 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#5 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#6 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#8 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (671)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (629)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (530)
+2014/03/03 09:23:44 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:23:44 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier 'a' (/var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php:671)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(530): simple_html_dom_node->seek()
+#1 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(1129): simple_html_dom_node->find()
+#2 /var/www/html/resume_parser/app/protected/components/HtmlHelper.php(7): simple_html_dom->find()
+#3 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(13): getItem()
+#4 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#5 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#6 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#8 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (671)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (629)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (530)
+2014/03/03 09:24:11 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:25:24 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:25:24 [error] [php] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier 'a' (/var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php:671)
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(530): simple_html_dom_node->seek()
+#1 /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php(1129): simple_html_dom_node->find()
+#2 /var/www/html/resume_parser/app/protected/components/HtmlHelper.php(7): simple_html_dom->find()
+#3 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(13): getItem()
+#4 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#5 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#6 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#8 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#10 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#11 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (671)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (629)
+in /var/www/html/resume_parser/app/protected/helpers/simple_html_dom.php (530)
+2014/03/03 09:25:49 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:26:01 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:26:03 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:26:04 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:26:15 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:26:16 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:26:31 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:36:35 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:36:44 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:36:47 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:37:27 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:38:49 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:39:20 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:39:52 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:40:35 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:44:54 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:45:37 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:54:49 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:54:51 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:55:06 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:55:07 [error] [php] Undefined variable: input (/var/www/html/resume_parser/app/protected/components/HtmlHelper.php:80)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/HtmlHelper.php (80)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (22)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 09:55:08 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:55:09 [error] [php] Undefined variable: input (/var/www/html/resume_parser/app/protected/components/HtmlHelper.php:80)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/HtmlHelper.php (80)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (22)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 09:55:09 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 09:55:10 [error] [php] Undefined variable: input (/var/www/html/resume_parser/app/protected/components/HtmlHelper.php:80)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/HtmlHelper.php (80)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (22)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 09:55:17 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:22:28 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:22:42 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:22:44 [error] [php] Missing argument 1 for RdwSearchResume::load_full(), called in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php on line 41 and defined (/var/www/html/resume_parser/app/protected/components/RdwSearchResume.php:48)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php (48)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (41)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 10:23:31 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:23:33 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:23:43 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:24:19 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:24:51 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:27:22 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:28:11 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:28:31 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:43:30 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:44:40 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:51:53 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:51:59 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:52:15 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:52:18 [error] [php] Trying to get property of non-object (/var/www/html/resume_parser/app/protected/components/RdwSearchResume.php:52)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php (52)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (42)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 10:52:20 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:52:24 [error] [php] Trying to get property of non-object (/var/www/html/resume_parser/app/protected/components/RdwSearchResume.php:52)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php (52)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (42)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 10:52:35 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:52:38 [error] [php] Trying to get property of non-object (/var/www/html/resume_parser/app/protected/components/RdwSearchResume.php:52)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php (52)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (42)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 10:52:40 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:52:43 [error] [php] Trying to get property of non-object (/var/www/html/resume_parser/app/protected/components/RdwSearchResume.php:52)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php (52)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (42)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 10:53:00 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:57:20 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:57:26 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:59:48 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 10:59:57 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:00:02 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:00:18 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:00:53 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:01:25 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:13:26 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:14:37 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:15:45 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:15:54 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:16:19 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:17:23 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:32:29 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:34:56 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:34:59 [error] [php] Missing argument 1 for RdwSearchResume::load_full(), called in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php on line 37 and defined (/var/www/html/resume_parser/app/protected/components/RdwSearchResume.php:47)
+Stack trace:
+#0 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#1 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): SiteController->runAction()
+#3 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#4 /var/www/html/resume_parser/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /var/www/html/resume_parser/app/index.php(18): CWebApplication->run()
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php (47)
+in /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php (37)
+in /var/www/html/resume_parser/app/protected/controllers/SiteController.php (155)
+2014/03/03 11:35:33 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:35:36 [error] [exception.CException] exception 'CException' with message 'Property "RdwSearchResume.worktype" is not defined.' in /var/www/html/resume_parser/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php(79): CComponent->__get('worktype')
+#1 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(44): RdwSearchResume->to_db(false)
+#2 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#3 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#4 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/resume_parser/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): CController->run('RdwParse')
+#9 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController('site/RdwParse')
+#10 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/resume_parser/app/index.php(18): CApplication->run()
+#12 {main}
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+---
+2014/03/03 11:37:09 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:37:17 [error] [exception.CException] exception 'CException' with message 'Property "RdwSearchResume.worktype" is not defined.' in /var/www/html/resume_parser/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/resume_parser/app/protected/components/RdwSearchResume.php(79): CComponent->__get('worktype')
+#1 /var/www/html/resume_parser/app/protected/components/RdwSearchResults.php(44): RdwSearchResume->to_db(false)
+#2 /var/www/html/resume_parser/app/protected/controllers/SiteController.php(155): RdwSearchResults->get_results()
+#3 /var/www/html/resume_parser/framework/web/actions/CInlineAction.php(49): SiteController->actionRdwParse()
+#4 /var/www/html/resume_parser/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/resume_parser/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/resume_parser/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/resume_parser/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/resume_parser/framework/web/CWebApplication.php(282): CController->run('RdwParse')
+#9 /var/www/html/resume_parser/framework/web/CWebApplication.php(141): CWebApplication->runController('site/RdwParse')
+#10 /var/www/html/resume_parser/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/resume_parser/app/index.php(18): CApplication->run()
+#12 {main}
+REQUEST_URI=/resume_parser/app/index.php?r=site/RdwParse
+---
+2014/03/03 11:37:28 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:40:32 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)
+2014/03/03 11:41:13 [info] [application] Global $_GET array cleaned using CmsInput::stripClean method.
+in /var/www/html/resume_parser/app/protected/components/CmsInput.php (319)
+in /var/www/html/resume_parser/app/index.php (18)

@@ -5,20 +5,19 @@ class RdwSearchResume extends CComponent
 	public $salary;
 	public $creation_date;
 	public $link='http://saratov.rdw.ru';
+	public $host='http://saratov.rdw.ru';
 	public $site='rdw';
 	
 	public $name;
-	public $age;
-	public $district;
-	public $worktype;
 	public $description;
 	public $phone;
 	public $email;
+	public $phone_link;
 	public function load_from_short_html(&$html) {
-		$this->creation_date = $this->format_date(mb_convert_encoding(HtmlHelper::getItem($html,'p.date'), "utf-8", "windows-1251"));
-		$this->job = mb_convert_encoding(HtmlHelper::getItem($html,'h2',0,'plaintext'), "utf-8", "windows-1251");
+		$this->creation_date = $this->format_date(HtmlHelper::getItem($html,'p.date'));
+		$this->job = HtmlHelper::getItem($html,'h2',0,'plaintext');
 		$this->link .= HtmlHelper::getItem($html,'h2 a',0,'href');
-		$this->salary = mb_convert_encoding(HtmlHelper::getItem($html,'span.red_salary_txt'), "utf-8", "windows-1251");
+		$this->salary = HtmlHelper::getItem($html,'span.red_salary_txt');
 		if (strpos($this->salary,'договор') === false) {
 			$this->salary = str_replace('от ','',$this->salary);
 			$this->salary = str_replace('уб','',$this->salary);
@@ -45,32 +44,25 @@ class RdwSearchResume extends CComponent
 		if ($num < 10) $num = '0'.$num;
 		return($exploded[2].'-'.$num.'-'.$exploded[0].' 00:00:00');
 	}
-	public function load_full() {
-		$html = HtmlHelper::loadHtml($this->link);
+	public function load_full($url) {
+		$html = HtmlHelper::loadHtmlFromString(mb_convert_encoding(HtmlHelper::curlLoad($this->link,$url), "utf-8", "windows-1251"));
 		$this->description = HtmlHelper::getItem($html,'ul.prof',0,'plaintext').'<br />';
-		$this->description .= HtmlHelper::getItem($html,'dl.module-list-desc',0,'plaintext').'<br />';
+		$this->description .= HtmlHelper::getItem($html,'.section-wide .module dl.module-list-desc',0,'plaintext').'<br />';
 		$this->description .= HtmlHelper::getItem($html,'table.vac_description',0,'plaintext');
-		//Тут будут контактные данные(получение таковых)
-		$contacts_table = $tables[3];
-		$this->district = mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($contacts_table,'tr','Район'),'td',1), "utf-8", "windows-1251");
-		$this->phone = UtilityHelper::formatPhone(HtmlHelper::getItem(HtmlHelper::findContains($contacts_table,'tr','Телефон'),'td',1));
-		$this->email = HtmlHelper::getItem(HtmlHelper::findContains($contacts_table,'tr','mail'),'td',1,'plaintext');
-		$wishes_table = $tables[4];
-		$this->worktype = mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($wishes_table,'tr','График работы'),'td',1), "utf-8", "windows-1251").' '.mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($wishes_table,'tr','Тип работы'),'td',1), "utf-8", "windows-1251");
-		$exp_table = $tables[5];
-		$this->description = mb_convert_encoding(HtmlHelper::getItem(HtmlHelper::findContains($exp_table,'tr','Профессиональные навыки'),'td',1), "utf-8", "windows-1251");
+		$dd = HtmlHelper::getItem($html,'div.module-employer dl.module-list-desc dd',1,'pure');
+		$this->name = HtmlHelper::getItem($dd,'p.break-word span',0,'plaintext');
+		$contact_dd = HtmlHelper::findContains($html,'dd','c_email');
+		$contact_dd_text = str_replace(array('\n','\r','\t','	',' '),'',$contact_dd->innertext);
+		preg_match_all('/getJSON\\(\\\'(.*?)\\\'\\,/',$contact_dd_text, $matches);
+		$this->phone_link = $this->host.$matches[1][1];
+		$cnt = 1;
+		while(!$this->get_contacts() && $cnt<=3) {
+			$cnt++;
+		}
 		$html->clear();
 		unset($html);
-		$personal_info_table->clear();
-		unset($personal_info_table);
-		$contacts_table->clear();
-		unset($contacts_table);
-		$wishes_table->clear();
-		unset($wishes_table);
-		$exp_table->clear();
-		unset($exp_table);
-		unset($tables);
-		
+		$dd->clear();
+		unset($dd);
 		
 	}
 	public function to_db($check_existance=true) {
@@ -84,16 +76,29 @@ class RdwSearchResume extends CComponent
 		$model->name=$this->name;
 		$model->job=$this->job;
 		$model->{'date'}=$this->creation_date;
-		$model->description=(($this->worktype)?'Рабочий день - '.$this->worktype.'. ':'').
-		($this->age?'Возраст - '.$this->age.'. ':'').($this->description?$this->description:'');
+		$model->description=($this->description?$this->description:'');
 		$model->phone = $this->phone;
+		$model->email = $this->email;
 		$model->link=$this->link;
-		$model->salary=str_replace('&nbsp;',' ',$this->salary);
+		$model->salary=str_replace(array('&thinsp;','&nbsp;'),' ',$this->salary);
 		if($model->save()) {
 			return true;
 		} else {
 			Yii::log(print_r($model->getErrors(), true), 'warning', 'MySQL');
 		}
+	}
+	public function get_contacts() {
+		$contacts = mb_convert_encoding(HtmlHelper::curlLoad($this->phone_link,$this->link), "utf-8", "windows-1251");
+		if ($decoded = json_decode($contacts)) {
+			if (!empty($decoded->EMAIL)) {
+				$this->email = $decoded->EMAIL;
+			}
+			if (!empty($decoded->PHONE_CONTACT)) {
+				$this->phone = UtilityHelper::formatPhone($decoded->PHONE_CONTACT);
+			}
+			return true;
+		}
+		return false;
 	}
 	public function check_in_db() {
 		if ($this->link) {
