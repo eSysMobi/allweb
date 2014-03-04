@@ -31,7 +31,7 @@
 			'items'=>array(
 				array('label'=>'Главная', 'url'=>array('/site/index')),
 				array('label'=>'Войти', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Резюме', 'url'=>array('/site/resume'), 'visible'=>!Yii::app()->user->isGuest),
+				array('label'=>'Резюме', 'url'=>array('/site/list'), 'visible'=>!Yii::app()->user->isGuest),
 				array('label'=>'Выйти ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
 		)); ?>

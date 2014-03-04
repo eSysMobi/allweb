@@ -236,4 +236,19 @@ class SiteController extends Controller
 		}
 		echo 1;
 	}
+	public function actionUpdate() {
+		$id = Yii::app()->input->get('id');
+		$resume = Resumes::model()->findByPk($id);	
+		foreach (array('offer_company','offer_phone','offer_comment') as $var) {
+			if ($val = Yii::app()->input->get($var)) {
+				$resume->$var = $val;
+			}
+		}
+		if ($resume->save()) {
+			echo json_encode(array('status' => 'ok'));
+		} else {
+			echo json_encode(array('status' => 'error'));
+			Yii::log(print_r($model->getErrors(), true), 'warning', 'MySQL Update');
+		}
+	}
 }
